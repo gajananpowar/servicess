@@ -10,5 +10,5 @@ spring-cloud-starter-bootstrap
 
 
 spring.application.name=eureka-server
-server.port=8761
+server.port=1000
 spring.cloud.config.uri=http://localhost:8888
