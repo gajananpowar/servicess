@@ -1,0 +1,15 @@
+ConfigServerApplication
+
+@EnableConfigServer
+
+dependencies
+spring-boot-starter-actuator
+spring-cloud-config-server
+org.springframework.boot
+org.springframework.cloud
+web,devTool
+
+
+spring.application.name=config-server
+server.port=8888
+spring.cloud.config.server.git.uri=https://github.com/gajananpowar/Microservices.git

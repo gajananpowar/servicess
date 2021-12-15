@@ -1,0 +1,14 @@
+EurekaServer
+
+@EnableEurekaServer
+
+spring-cloud-starter
+spring boot actuator
+spring-cloud-starter-netflix-eureka-server
+spring-cloud-starter-config
+spring-cloud-starter-bootstrap
+
+
+spring.application.name=eureka-server
+server.port=8761
+spring.cloud.config.uri=http://localhost:8888

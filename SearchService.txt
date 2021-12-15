@@ -1,0 +1,19 @@
+SearchService
+
+@EnableDiscoveryClient
+
+
+spring-cloud-bus
+spring boot starter actuator
+spring-cloud-starter-config
+spring-cloud-starter
+spring-cloud-starter-netflix-eureka-client
+spring-cloud-starter-bus-amqp
+org.springframework.cloud
+spring-cloud-starter-bootstrap
+
+
+
+spring.application.name=search-service
+server.port=8766
+spring.cloud.config.uri=http://localhost:8888
